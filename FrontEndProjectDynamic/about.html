@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,
+	                initial-scale=1.0">
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="style.css">
+	 <script src="jquery-3.6.0.js"></script>
+	<title>About</title>
+</head>
+<body>
+
+	<!-- header section starts -->
+	<div id="headerSec">
+	<script>
+	$(document).ready(function(){
+		$('#headerSec').load('headerbar/content.html');
+	});
+	</script>
+	</div>
+	<!-- header section ends -->
+
+	<!-- content section starts -->
+	<div class="content">
+		<div class="content-left" id="aboutContent">
+			<script>
+			$(document).ready(function(){
+				$('#aboutContent').load('about/content.html');
+			});
+			</script>
+		</div>
+		<div class="content-right" id="rightSide">
+			<script>
+			$(document).ready(function(){
+				$('#rightSide').load('rightside.html');
+			});
+			</script>
+		</div>
+	</div>
+	<!-- content section ends -->
+	
+	<!-- footer section starts -->
+	<footer class="footerbar">
+		Copyright &#x00A9;
+	</footer>
+	<!-- footer section ends -->
+		
+
+
+</body>
+</html>
